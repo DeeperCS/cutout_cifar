@@ -1,0 +1,16 @@
+dataset,cifar10
+model,resnet18
+batch_size,128
+epochs,200
+learning_rate,0.1
+data_augmentation,True
+cutout,True
+n_holes,1
+length,16
+no_cuda,False
+print_freq,100
+seed,0
+cuda,True
+""
+time,epoch,train_acc,test_acc
+[2020-06-17 15:41:20],0,0.14148,0.1981

@@ -1,0 +1,20 @@
+Namespace(batch_size=128, cuda=True, cutout=True, data_augmentation=True, dataset='cifar10', epochs=200, learning_rate=0.1, length=16, model='resnet18', n_holes=1, no_cuda=False, print_freq=100, seed=0)
+Python  Version  : 3.7.1 (default, Dec 14 2018, 19:28:38)  [GCC 7.3.0]
+Pillow  Version  : 7.1.2
+PyTorch Version  : 1.0.0
+Torchvision Version  : 1.0.0
+cuDNN   Version  : 7401
+CUDA available   : True
+CUDA GPU numbers : 1
+CUDA_VISIBLE_DEVICES=0
+Downloading https://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz to data/cifar-10-python.tar.gz
+Files already downloaded and verified
+Model info => FLOPs:555.42273, Params:11.173962
+[2020-06-17 15:40:48] Epoch:  0
+Cross Entropy loss: 2.304680824279785 Acc: 0.078125
+Cross Entropy loss: 2.3046112461845474 Acc: 0.09707611386138613
+Cross Entropy loss: 2.3039969259233617 Acc: 0.10210665422885572
+Cross Entropy loss: 2.2724047194287627 Acc: 0.12144414451827243
+test_acc:  0.1981
+[2020-06-17 15:41:20] Epoch:  1
+Cross Entropy loss: 2.288457155227661 Acc: 0.1796875
